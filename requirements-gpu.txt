@@ -1,0 +1,5 @@
+# Optional GPU backends (cuML SVR/RF, XGBoost on CUDA); require an NVIDIA GPU with a CUDA 12 driver.
+--extra-index-url https://pypi.nvidia.com
+-r requirements.txt
+cuml-cu12==24.8.0
+cupy-cuda12x==13.6.0
